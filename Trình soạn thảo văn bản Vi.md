@@ -1,0 +1,13 @@
+```vi tenfile```  => enter => đi đến chế độ command  <br/>
+Bấm ```i``` để đến chế độ insert ( soạn thảo văn bản ở chế độ này )  <br/>
+Bấm ```esc``` để thoát chế độ insert ( quay lại chế độ command )  <br/>
+Có thể coppy (dòng), xóa (dòng), sửa/tìm kiếm văn bản ở chế độ command ( chỉ con trỏ đến dòng: dd p dd u   /tucantimkiem )
+
+<br/>
+
+```shift + :```  để đến chế độ Ex =>  <br/>
+	- ```%s/ngay/day/g```: sửa ngay thành day.
+	- ```/tucantimkiem```
+	- ```set nu```: hiện số dòng ở từng dòng ( ```set nonu``` để tắt )
+	- ```wq``` để lưu và thoát
+	- ```quit!``` thoát và không lưu
